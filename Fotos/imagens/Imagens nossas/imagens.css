@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+
+:root {
+    --cor0:#2A2B2A;
+    --cor1:#5E4955;
+    --cor2:#996888;
+    --cor3:#C99DA3;
+    --cor4:#C6DDF0;
+
+    --fonte-padrao: 'Dosis', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to bottom, var(--cor2,), var(--cor1));
+    font-family: var(--fonte-padrao);
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor1));
+    text-align: center;
+    padding: 10px;
+}
+
+header > h1 {
+    font-size: 4em;
+    color: var(--cor3);
+    text-shadow: 5px 2px 0px #0a08085b;
+}
+
+header > p {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: var(--cor4)
+}
+
+nav {
+    background-color: var(--cor3);
+    text-align: center;
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+nav a {
+    color: var(--cor0);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: var(--cor2);
+    color: var(--cor3);
+    border-radius: 5px;
+}
+
+section {
+    background-color: var(--cor4);
+    margin: auto;    
+    max-width: 800px;
+    min-width: 300px;
+    padding: 30px 30px;
+    box-shadow: 0px 0px 10px #419d7877;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.imagens {
+    margin: 5px 50px;
+    display: inline-block;
+    width: 265px;
+    padding: 25px 0px;
+}
+
+.imagens img {
+    width: 110%;
+    height: auto;
+    padding: -5px;
+    border: 4px solid var(--cor3);
+    border-radius: 5px;
+}
+
+.desc {
+    padding: 10px;
+    text-align: center;
+}
+
+.voltar img {
+    width: 10%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 20px;
+}
+
+strong {
+    color: var(--cor3);
+}
+
+footer {
+    margin-top: 10px;
+    text-align: center;
+    background-color: var(--cor3);
+    color: var(--cor0);
+    font-weight: bold;
+    font-size: 1.2em;
+}

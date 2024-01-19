@@ -1,0 +1,29 @@
+@media screen and (max-width: 860px) {
+        header > p {
+            padding-bottom: 20px;
+        }
+
+        nav {
+            width: 96.7vw;
+            margin: auto;
+            border-left: 4px solid var(--cor5);
+            border-right: 4px solid var(--cor5);
+        }
+    
+        nav a {
+            display: block;
+        }
+
+        nav a:hover {
+            background-color: pink;
+            color: rgb(77, 87, 77);
+        }
+    
+        img {
+            width: 100%;
+        }
+    
+        img:hover {
+            transform: none;
+        }
+}
