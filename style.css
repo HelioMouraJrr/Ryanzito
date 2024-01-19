@@ -50,7 +50,7 @@ header > p {
 }
 
 nav {
-    background-image: url(/Fotos/wow.webp);
+    background-image: url(Fotos/wow.webp);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 10px;
@@ -76,8 +76,7 @@ nav a:hover {
 }
 
 main {
-    background-image: url(/Fotos/pinky.jpg);
-    background-repeat: no-repeat;
+    background-image: url(Fotos/pinky.jpg);
     background-size: cover;
     max-width: 800px;
     min-width: 300px;
@@ -142,7 +141,7 @@ ul {
 
 footer {
     margin-top: 10px;
-    background-image: url(/Fotos/wow.webp);
+    background-image: url(Fotos/wow.webp);
     color: var(--cor0);
     text-align: center;
     font-size: 1.2em;
